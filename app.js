@@ -9,8 +9,8 @@ let count = 0;
 
 const app = express(),
     port = 3000,
-    domain = "http://www.betway.co.za.dv",
-    culture = "en-US";
+    domain = "",
+    culture = "";
  
 function create(obj, number) {
     if (number < obj.length) {
